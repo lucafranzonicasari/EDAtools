@@ -10,14 +10,14 @@ setup(
     packages=['feature_importance'],
     # Needed for dependencies
     install_requires=[
-        pandas,
-        sklearn,
-        numpy,
-        matplotlib,
-        numpy,
-        ppscore,
-        scipy,
-        tqdm
+        'pandas',
+        'sklearn',
+        'numpy',
+        'matplotlib',
+        'numpy',
+        'ppscore',
+        'scipy',
+        'tqdm'
     ],
     # *strongly* suggested for sharing
     version='0.1',
