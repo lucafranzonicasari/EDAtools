@@ -7,7 +7,7 @@ setup(
     author='Luca Franzoni',
     author_email='luca.franzoni.casari@gmail.com',
     # Needed to actually package something
-    packages=['feature_importance'],
+    # packages=['feature_importance'],   ## qui vanno inclusi solo ed esclusivamente i sotto-pacchetti, i moduli (ovvero i files python: 1 file --> 1 1 modulo) no
     # Needed for dependencies
     install_requires=[
         'pandas',
